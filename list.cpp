@@ -31,4 +31,5 @@ iter++;
 list1.merge(list2);
 display(list1);
     return 0;
-}
+} 
+//It creates list1, adds elements (827, 125, 262) using push_back, and creates list2 with 3 elements, which are assigned values (56, 96, 73) using an iterator. The merge function combines list2 into list1, sorting them, and display prints the merged list (56, 73, 96, 125, 262, 827). The display function uses an iterator to traverse and print list elements.
